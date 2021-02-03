@@ -5636,7 +5636,7 @@ button {
 .article-entry ul,
 .article-entry ol,
 .article-entry dl {
-  margin: 1.5rem 0 1.5rem 2rem;
+  margin: 1.5rem 0 1.5rem 0;
 }
 .article-entry p,
 .article-entry table,
@@ -6948,8 +6948,9 @@ a.archive-article-title {
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
 .article-entry code {
+  font-family: serif;
   background: #eee;
-  color: #c7254e;
+  color: #E74C3C;
   padding: 0 0.3em;
   border: none;
 }
